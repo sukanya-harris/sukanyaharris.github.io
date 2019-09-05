@@ -1,0 +1,52 @@
+.footer {
+    position: relative;
+    top: 400px;
+}
+
+h1{
+    font-family: "Allan";
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px #494801;
+    padding-top: 145px;
+    padding-left: 75px;
+    padding-bottom: 30px;
+}
+
+body {
+    background-image: url(629973-PO7FBF-677.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8C9A31;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 90px;
+  text-decoration: none;
+  font-family: "Allan";
+  font-size: 50px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #94B0DA;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}

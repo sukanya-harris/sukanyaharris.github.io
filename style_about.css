@@ -1,0 +1,100 @@
+h1{
+    font-family: "Allan";
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px #494801;
+    margin: 1px;
+}
+
+h3 {
+    
+}
+
+body {
+    font-family: "Boogaloo";
+    width: 99%;
+    background-image: url(629973-PO7FBF-677.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.header {
+  padding: 1px;
+  font-size: 60px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.topnav {
+  background-color: #8C9A31;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 99px;
+  text-decoration: none;
+  font-family: "Allan";
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #94B0DA;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
