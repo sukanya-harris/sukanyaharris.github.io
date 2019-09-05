@@ -19,15 +19,6 @@ body {
     background-size: contain;
 }
 
-.header {
-  padding: 1px;
-  font-size: 60px;
-  text-align: center;
-  background: white;
-  border-radius: 10px;
-  margin: 30px;
-}
-
 .leftcolumn {
   float: left;
   width: 75%;
