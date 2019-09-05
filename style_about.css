@@ -7,12 +7,24 @@ h1{
     margin: 1px;
 }
 
-h3 {
-    
+h2, p {
+    font-weight: 100
 }
 
+h2 {
+    text-decoration: none;
+    font-size: 60px;
+    margin: 1px;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+
 body {
-    font-family: "Boogaloo";
+    font-family: "Allan";
     width: 99%;
     background-image: url(629973-PO7FBF-677.jpg);
     background-attachment: fixed;

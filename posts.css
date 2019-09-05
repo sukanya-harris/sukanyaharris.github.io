@@ -1,27 +1,20 @@
-.footer {
-    position: relative;
-    top: 400px;
-}
-
-h1{
-    font-family: "Allan";
-    font-size: 150px;
-    color: white;
-    text-align: center;
-    text-shadow: 4px 4px #494801;
-    padding-top: 145px;
-    padding-left: 75px;
-    padding-bottom: 30px;
-}
-
 body {
+    font-family: "Allan";
     background-image: url(629973-PO7FBF-677.jpg);
     background-attachment: fixed;
     background-size: contain;
 }
 
 
-/* Add a black background color to the top navigation */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+
 .topnav {
   background-color: #8C9A31;
   overflow: hidden;
@@ -34,10 +27,10 @@ body {
   float: center;
   color: #f2f2f2;
   text-align: center;
-  padding: 22px 90px;
+  padding: 22px 99px;
   text-decoration: none;
   font-family: "Allan";
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* Change the color of links on hover */
@@ -48,6 +41,5 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
   color: white;
 }
